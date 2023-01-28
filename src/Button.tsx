@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import { StyledButton } from './styles';
 
@@ -33,3 +34,9 @@ Button.defaultProps = {
 };
 
 Button.displayName = 'Button';
+
+Button.propTypes = {
+  variant: PropTypes.oneOf(['secondary', 'primary', 'danger']),
+  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  isFullWidth: PropTypes.bool,
+};
