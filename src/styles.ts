@@ -1,6 +1,6 @@
 import { transparentize } from 'polished';
 import styled, { css } from 'styled-components';
-import { ButtonProps } from './Button';
+import { ButtonProps } from './buttons/Button';
 import {
   DANGER_COLOR,
   DANGER_TEXT_COLOR,
