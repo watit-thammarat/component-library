@@ -17,10 +17,7 @@
     "build:js": "rollup -c rollup.config.js",
     "build:types": "tsc -p tsconfig.build.json"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/watit-thammarat/component-library.git"
-  },
+  "repository": "https://github.com/watit-thammarat/component-library.git",
   "keywords": [],
   "author": "",
   "license": "ISC",
